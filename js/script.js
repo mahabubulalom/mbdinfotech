@@ -44,11 +44,22 @@ $(function(){
 });
 
 
+$('.subcategory-item').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed:2000,
+    arrows:true,
+    nextArrow: '.right',
+    prevArrow: '.left',
+
+  });
 $('.testimonial-item').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed:2000,
     arrows:true,
     nextArrow: '.right',
